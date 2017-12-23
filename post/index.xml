@@ -5,7 +5,8 @@
     <link>https://blog.majigomama.com/post/</link>
     <description>Recent content in Posts on gomama blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-JP</language>
+    <language>ja</language>
+    <copyright>(C)2017 gomama</copyright>
     <lastBuildDate>Sat, 23 Dec 2017 03:24:10 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.majigomama.com/post/index.xml" rel="self" type="application/rss+xml" />

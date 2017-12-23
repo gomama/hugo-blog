@@ -5,10 +5,21 @@
     <link>https://blog.majigomama.com/tags/</link>
     <description>Recent content in Tags on gomama blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-JP</language>
+    <language>ja</language>
+    <copyright>(C)2017 gomama</copyright>
+    <lastBuildDate>Sat, 23 Dec 2017 03:24:10 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.majigomama.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog</title>
+      <link>https://blog.majigomama.com/tags/blog/</link>
+      <pubDate>Sat, 23 Dec 2017 03:24:10 +0900</pubDate>
+      
+      <guid>https://blog.majigomama.com/tags/blog/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

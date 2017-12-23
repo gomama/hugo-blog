@@ -13,6 +13,12 @@
   </url>
   
   <url>
+    <loc>https://blog.majigomama.com/tags/blog/</loc>
+    <lastmod>2017-12-23T03:24:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.majigomama.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -25,6 +31,7 @@
   
   <url>
     <loc>https://blog.majigomama.com/tags/</loc>
+    <lastmod>2017-12-23T03:24:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
