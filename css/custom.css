@@ -1,0 +1,7 @@
+header #social li {
+  font-size: 20px;
+}
+
+header #social li + li {
+  border-left: 0;
+}
