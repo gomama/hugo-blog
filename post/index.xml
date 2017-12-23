@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>(C)2017 gomama</copyright>
-    <lastBuildDate>Sat, 23 Dec 2017 03:24:10 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 23 Dec 2017 17:17:24 +0900</lastBuildDate>
     
 	<atom:link href="https://majigomama.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>更新用スクリプトを作った</title>
+      <link>https://majigomama.com/post/auto-update-script/</link>
+      <pubDate>Sat, 23 Dec 2017 17:17:24 +0900</pubDate>
+      
+      <guid>https://majigomama.com/post/auto-update-script/</guid>
+      <description>ブログ作ったネタはそろそろ終わりにしたい。 毎回更新するたびにgitコマンドやらなんやらを打つのは面倒なので、batスクリプト作ってちょっと楽</description>
+    </item>
     
     <item>
       <title>Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</title>
