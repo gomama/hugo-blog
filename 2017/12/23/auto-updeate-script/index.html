@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    Posts | gomama blog
+    更新用スクリプトを作った | gomama blog
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="https://majigomama.com/post/"/>
+  <link rel="canonical" href="https://majigomama.com/2017/12/23/auto-updeate-script/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -66,46 +66,68 @@
 
 
   
-  <main id="list" role="main">
-    <div class="article-header light-gray"><h1>#Posts</h1></div>
-    
-    <div class="summary">
-      <h2><a href="https://majigomama.com/2017/12/23/auto-updeate-script/">更新用スクリプトを作った </a></h2>
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>更新用スクリプトを作った</h1>
       <div class="meta">
-        2017-12-23 &nbsp;
+        <i class="fa fa-calendar"></i>2017-12-23 &nbsp;
         
-          #<a href="/tags/blog">blog</a>&nbsp;
+          <i class="fa fa-tag"></i><a href="/tags/blog">blog</a>&nbsp;
         
-          #<a href="/tags/hugo">Hugo</a>&nbsp;
+          <i class="fa fa-tag"></i><a href="/tags/hugo">Hugo</a>&nbsp;
         
       </div>
     </div>
+    <article>
+      <p>ブログ作ったネタはそろそろ終わりにしたい。</p>
+
+<p>毎回更新するたびにgitコマンドやらなんやらを打つのは面倒なので、batスクリプト作ってちょっと楽にした。</p>
+
+<pre><code class="language-sh">@echo off
+set GIT_PATH=&quot;C:\Program Files\Git\cmd\git.exe&quot;
+set HUGO_PATH=&quot;C:\App\hugo\hugo.exe&quot;
+set BASE_DIR=&quot;C:\Users\gomama\Documents\gomama.blog&quot;
+
+cd /d %BASE_DIR%
+
+rem build
+%HUGO_PATH%
+
+set COMMENT=&quot;updated blog at %date% %time%&quot;
+
+%GIT_PATH% add .
+%GIT_PATH% commit -m %COMMENT%
+
+rem publicフォルダの中身を公開
+cd public
+
+%GIT_PATH% add .
+%GIT_PATH% commit -m %COMMENT%
+%GIT_PATH% push
+
+cd %BASE_DIR%
+
+echo post finished.
+</code></pre>
+
+<p>markdownファイルの編集はvscodeでやっているので、これをtaskとして登録してbuild taskとして動かそうと思ってたんだけど、
+なんかうまくいかない・・・。仕方ないのでbatを直接手でたたいてる。まぁこれでも十分手間は少ないからいいんだけど。</p>
+
+      
+      
+      <div class="sharethis-inline-share-buttons"></div>
+    </article>
     
-    <div class="summary">
-      <h2><a href="https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/">Github Pages &#43; Hugo &#43; Cloudflareでブログ作成 </a></h2>
-      <div class="meta">
-        2017-12-23 &nbsp;
-        
-          #<a href="/tags/blog">blog</a>&nbsp;
-        
-          #<a href="/tags/hugo">Hugo</a>&nbsp;
-        
-          #<a href="/tags/tech">Tech</a>&nbsp;
-        
-      </div>
-    </div>
-    
-    <div class="summary">
-      <h2><a href="https://majigomama.com/2017/12/23/start-blog/">ブログ作った </a></h2>
-      <div class="meta">
-        2017-12-23 &nbsp;
-        
-          #<a href="/tags/blog">blog</a>&nbsp;
-        
-      </div>
-    </div>
-    
+
+
   </main>
+  
+  <nav class="pagination-single">
+    
+      <span class="previous"><i class="fa fa-arrow-circle-left"></i> <a href="https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/" rel="prev">Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</a></span>
+    
+    
+  </nav>
 
 
   

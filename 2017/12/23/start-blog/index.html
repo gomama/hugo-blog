@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    更新用スクリプトを作った | gomama blog
+    ブログ作った | gomama blog
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="https://majigomama.com/post/auto-update-script/"/>
+  <link rel="canonical" href="https://majigomama.com/2017/12/23/start-blog/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -68,48 +68,18 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>更新用スクリプトを作った</h1>
+      <h1>ブログ作った</h1>
       <div class="meta">
-        2017-12-23 &nbsp;
+        <i class="fa fa-calendar"></i>2017-12-23 &nbsp;
         
-          #<a href="/tags/blog">blog</a>&nbsp;
+          <i class="fa fa-tag"></i><a href="/tags/blog">blog</a>&nbsp;
         
       </div>
     </div>
     <article>
-      <p>ブログ作ったネタはそろそろ終わりにしたい。</p>
+      <p>markdownで雑にかけるブログがほしいなーと前々から思っていたのだけど、最近AWSを触っていた兼ね合いで、S3+CloudFront+静的サイトジェネレーターあたりで作ればいいんじゃね？と思い至り、結果としてGithub Pages+CloudFlare+Hugoという組み合わせで作った。あれ？</p>
 
-<p>毎回更新するたびにgitコマンドやらなんやらを打つのは面倒なので、batスクリプト作ってちょっと楽にした。</p>
-
-<pre><code class="language-sh">@echo off
-set GIT_PATH=&quot;C:\Program Files\Git\cmd\git.exe&quot;
-set HUGO_PATH=&quot;C:\App\hugo\hugo.exe&quot;
-set BASE_DIR=&quot;C:\Users\gomama\Documents\gomama.blog&quot;
-
-cd /d %BASE_DIR%
-
-rem build
-%HUGO_PATH%
-
-set COMMENT=&quot;updated blog at %date% %time%&quot;
-
-%GIT_PATH% add .
-%GIT_PATH% commit -m %COMMENT%
-
-rem publicフォルダの中身を公開
-cd public
-
-%GIT_PATH% add .
-%GIT_PATH% commit -m %COMMENT%
-%GIT_PATH% push
-
-cd %BASE_DIR%
-
-echo post finished.
-</code></pre>
-
-<p>markdownファイルの編集はvscodeでやっているので、これをtaskとして登録してbuild taskとして動かそうと思ってたんだけど、
-なんかうまくいかない・・・。仕方ないのでbatを直接手でたたいてる。まぁこれでも十分手間は少ないからいいんだけど。</p>
+<p>というわけでやっていきたいと思うのでよろしくお願いします。</p>
 
       
       
@@ -122,8 +92,8 @@ echo post finished.
   
   <nav class="pagination-single">
     
-      <span class="previous">&larr; <a href="https://majigomama.com/post/create-ghpages-hugo-cloudflare-blog/" rel="prev">Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</a></span>
     
+      <span class="next"><a href="https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/" rel="next">Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</a> <i class="fa fa-arrow-circle-right"></i></span>
     
   </nav>
 

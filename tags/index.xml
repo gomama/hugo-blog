@@ -21,5 +21,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Hugo</title>
+      <link>https://majigomama.com/tags/hugo/</link>
+      <pubDate>Sat, 23 Dec 2017 17:17:24 +0900</pubDate>
+      
+      <guid>https://majigomama.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://majigomama.com/tags/tech/</link>
+      <pubDate>Sat, 23 Dec 2017 03:24:10 +0900</pubDate>
+      
+      <guid>https://majigomama.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

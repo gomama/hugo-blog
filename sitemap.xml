@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://majigomama.com/post/auto-update-script/</loc>
+    <loc>https://majigomama.com/2017/12/23/auto-updeate-script/</loc>
     <lastmod>2017-12-23T17:17:24+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://majigomama.com/post/create-ghpages-hugo-cloudflare-blog/</loc>
+    <loc>https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/</loc>
     <lastmod>2017-12-23T03:24:10+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://majigomama.com/post/start-blog/</loc>
+    <loc>https://majigomama.com/2017/12/23/start-blog/</loc>
     <lastmod>2017-12-23T01:23:20+09:00</lastmod>
   </url>
   
@@ -29,6 +29,12 @@
   </url>
   
   <url>
+    <loc>https://majigomama.com/tags/hugo/</loc>
+    <lastmod>2017-12-23T17:17:24+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://majigomama.com/post/</loc>
     <lastmod>2017-12-23T17:17:24+09:00</lastmod>
     <priority>0</priority>
@@ -37,6 +43,12 @@
   <url>
     <loc>https://majigomama.com/tags/</loc>
     <lastmod>2017-12-23T17:17:24+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://majigomama.com/tags/tech/</loc>
+    <lastmod>2017-12-23T03:24:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   

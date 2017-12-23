@@ -57,7 +57,9 @@ header #social li + li {
 }
 
 .article-header {
-  border-left: 4px solid #bbb8c9;
+  border-left:0;
+  margin: 10px 0 25px 0;
+  padding: 5px 0 5px 0;
 }
 
 .light-gray h1:before {
