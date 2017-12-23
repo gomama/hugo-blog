@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on gomama blog</title>
-    <link>https://blog.majigomama.com/tags/blog/</link>
+    <link>https://majigomama.com/tags/blog/</link>
     <description>Recent content in Blog on gomama blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>(C)2017 gomama</copyright>
     <lastBuildDate>Sat, 23 Dec 2017 03:24:10 +0900</lastBuildDate>
     
-	<atom:link href="https://blog.majigomama.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://majigomama.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</title>
-      <link>https://blog.majigomama.com/post/create-ghpages-hugo-cloudflare-blog/</link>
+      <link>https://majigomama.com/post/create-ghpages-hugo-cloudflare-blog/</link>
       <pubDate>Sat, 23 Dec 2017 03:24:10 +0900</pubDate>
       
-      <guid>https://blog.majigomama.com/post/create-ghpages-hugo-cloudflare-blog/</guid>
+      <guid>https://majigomama.com/post/create-ghpages-hugo-cloudflare-blog/</guid>
       <description>タイトルの通りの構成でtwitterに書くには長すぎるけどなんか真面目に記事書くのもだるいみたいな文章を置く場所を作ったのだった。 以下は作成</description>
     </item>
     
     <item>
       <title>ブログ作った</title>
-      <link>https://blog.majigomama.com/post/start-blog/</link>
+      <link>https://majigomama.com/post/start-blog/</link>
       <pubDate>Sat, 23 Dec 2017 01:23:20 +0900</pubDate>
       
-      <guid>https://blog.majigomama.com/post/start-blog/</guid>
+      <guid>https://majigomama.com/post/start-blog/</guid>
       <description>markdownで雑にかけるブログがほしいなーと前々から思っていたのだけど、最近AWSを触っていた兼ね合いで、S3+CloudFront+静</description>
     </item>
     
