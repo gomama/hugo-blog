@@ -67,3 +67,7 @@ header #social li + li {
   content: "\f0ca";
   padding-right: 5px;
 }
+
+.sharethis-inline-share-buttons {
+  margin: 10px 0 10px 0;
+}
