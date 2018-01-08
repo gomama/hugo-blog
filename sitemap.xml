@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://majigomama.com/2018/01/08/read-stdlinux2/</loc>
+    <lastmod>2018-01-08T19:19:26+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://majigomama.com/2018/01/05/played-games-in-2017/</loc>
     <lastmod>2018-01-05T13:05:22+09:00</lastmod>
   </url>
@@ -51,6 +56,12 @@
   </url>
   
   <url>
+    <loc>https://majigomama.com/tags/linux/</loc>
+    <lastmod>2018-01-08T19:19:26+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://majigomama.com/tags/nsw/</loc>
     <lastmod>2017-12-23T20:58:15+09:00</lastmod>
     <priority>0</priority>
@@ -58,7 +69,7 @@
   
   <url>
     <loc>https://majigomama.com/post/</loc>
-    <lastmod>2018-01-05T13:05:22+09:00</lastmod>
+    <lastmod>2018-01-08T19:19:26+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,13 +81,13 @@
   
   <url>
     <loc>https://majigomama.com/tags/tech/</loc>
-    <lastmod>2017-12-23T03:24:10+09:00</lastmod>
+    <lastmod>2018-01-08T19:19:26+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://majigomama.com/</loc>
-    <lastmod>2018-01-05T13:05:22+09:00</lastmod>
+    <lastmod>2018-01-08T19:19:26+09:00</lastmod>
     <priority>0</priority>
   </url>
   

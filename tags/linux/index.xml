@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on gomama blog</title>
-    <link>https://majigomama.com/tags/tech/</link>
-    <description>Recent content in Tech on gomama blog</description>
+    <title>Linux on gomama blog</title>
+    <link>https://majigomama.com/tags/linux/</link>
+    <description>Recent content in Linux on gomama blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>(C)2017 gomama</copyright>
     <lastBuildDate>Mon, 08 Jan 2018 19:19:26 +0900</lastBuildDate>
     
-	<atom:link href="https://majigomama.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://majigomama.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://majigomama.com/2018/01/08/read-stdlinux2/</guid>
       <description>正月休みがまぁまぁあったので、なんか本1冊読み切るか、と思い、「ふつうのLinuxプログラミング」を読んだ。 最近仕事上Linux上で動作する</description>
-    </item>
-    
-    <item>
-      <title>Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</title>
-      <link>https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/</link>
-      <pubDate>Sat, 23 Dec 2017 03:24:10 +0900</pubDate>
-      
-      <guid>https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/</guid>
-      <description>タイトルの通りの構成でtwitterに書くには長すぎるけどなんか真面目に記事書くのもだるいみたいな文章を置く場所を作ったのだった。 以下は作成</description>
     </item>
     
   </channel>

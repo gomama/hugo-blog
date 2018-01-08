@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>(C)2017 gomama</copyright>
-    <lastBuildDate>Fri, 05 Jan 2018 13:05:22 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2018 19:19:26 +0900</lastBuildDate>
     
 	<atom:link href="https://majigomama.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「ふつうのLinuxプログラミング」を読んだ</title>
+      <link>https://majigomama.com/2018/01/08/read-stdlinux2/</link>
+      <pubDate>Mon, 08 Jan 2018 19:19:26 +0900</pubDate>
+      
+      <guid>https://majigomama.com/2018/01/08/read-stdlinux2/</guid>
+      <description>正月休みがまぁまぁあったので、なんか本1冊読み切るか、と思い、「ふつうのLinuxプログラミング」を読んだ。 最近仕事上Linux上で動作する</description>
+    </item>
     
     <item>
       <title>今年遊んだゲーム2017</title>
