@@ -4,13 +4,13 @@
 <head>
   
   <meta charset="UTF-8">
-  <title>ブログ作った | gomama blog</title>
+  <title>ブロックチェーンを構築しながら学んだ | gomama blog</title>
 
   
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="https://majigomama.com/2017/12/23/start-blog/"/>
+  <link rel="canonical" href="https://majigomama.com/2018/01/14/learn-blockchain/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -31,9 +31,9 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@gomama" />
   <meta name="twitter:player" content="@gomama" />
-  <meta property="og:url" content="https://majigomama.com/2017/12/23/start-blog/" />
-  <meta property="og:title" content="ブログ作った | gomama blog" />
-  <meta property="og:description" content="markdownで雑にかけるブログがほしいなーと前々から思っていたのだけど、最近AWSを触っていた兼ね合いで、S3&#43;CloudFront&#43;静" />
+  <meta property="og:url" content="https://majigomama.com/2018/01/14/learn-blockchain/" />
+  <meta property="og:title" content="ブロックチェーンを構築しながら学んだ | gomama blog" />
+  <meta property="og:description" content="みなさん、仮想通貨で消耗してますか？僕は昨年末ぐらいからいいかんじに消耗しています。XEMには頑張ってもらいたい。 ところで、仮想通貨って結局" />
   <meta property="og:image" content="" />
 </head>
 <body>
@@ -60,18 +60,29 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>ブログ作った</h1>
+      <h1>ブロックチェーンを構築しながら学んだ</h1>
       <div class="meta">
-        <i class="fa fa-calendar"></i>&nbsp;2017-12-23 &nbsp;
+        <i class="fa fa-calendar"></i>&nbsp;2018-01-14 &nbsp;
         
-          <i class="fa fa-tag"></i><a href="/tags/blog">blog</a>&nbsp;
+          <i class="fa fa-tag"></i><a href="/tags/tech">tech</a>&nbsp;
         
       </div>
     </div>
     <article>
-      <p>markdownで雑にかけるブログがほしいなーと前々から思っていたのだけど、最近AWSを触っていた兼ね合いで、S3+CloudFront+静的サイトジェネレーターあたりで作ればいいんじゃね？と思い至り、結果としてGithub Pages+CloudFlare+Hugoという組み合わせで作った。あれ？</p>
+      <p>みなさん、仮想通貨で消耗してますか？僕は昨年末ぐらいからいいかんじに消耗しています。XEMには頑張ってもらいたい。</p>
 
-<p>というわけでやっていきたいと思うのでよろしくお願いします。</p>
+<p>ところで、仮想通貨って結局どうやって成り立ってんだっていうのをちゃんと知るべきだなぁと思ってたところ、
+<a href="http://postd.cc/learn-blockchains-by-building-one/">ブロックチェ－ンを構築しながら学ぶ</a>という記事を
+見かけたので、僕もちょろっとやってみた。</p>
+
+<p>原文はPython+Flaskで書いているけど、自分はRubyのほうが書き慣れていたのでRuby+Sinatraで書いてみた。
+久しぶりに<a href="http://sinatrarb.com/">Sinatra</a>（いつの間にか2.0になってた・・・）使ったけどこの手のをさくっと書くには便利だ。</p>
+
+<p>ほんとにほぼそのままRubyで書き換えただけなのであんまり見どころはないが、まぁ一応ということで、
+ソースは<a href="https://github.com/gomama/blockchain-test">Githubに置いた</a>。</p>
+
+<p>やはり自分で手を動かしてみると理解が進みやすいのでいい。そんな大したサイズでないので、自分の慣れた言語でやってみるのおすすめ。
+ちなみに記事内で続きを書くみたいなこと書いてるけど、いつ出るんだろうか。原文のほうも見てみたがまだなさそうだった。</p>
 
       
       
@@ -84,8 +95,8 @@
 
 
 var disqus_config = function () {
-this.page.url = "https:\/\/majigomama.com\/2017\/12\/23\/start-blog\/";  
-this.page.identifier = "36b1d245fd686b3bd91aece0e3c4f81b"; 
+this.page.url = "https:\/\/majigomama.com\/2018\/01\/14\/learn-blockchain\/";  
+this.page.identifier = "2f1a6ceda50533661f9323b6619a18f8"; 
 };
 
 (function() { 
@@ -101,8 +112,8 @@ s.setAttribute('data-timestamp', +new Date());
   
   <nav class="pagination-single">
     
+      <span class="previous"><i class="fa fa-arrow-circle-left"></i> <a href="https://majigomama.com/2018/01/08/read-stdlinux2/" rel="prev">「ふつうのLinuxプログラミング」を読んだ</a></span>
     
-      <span class="next"><a href="https://majigomama.com/2017/12/23/create-ghpages-hugo-cloudflare-blog/" rel="next">Github Pages &#43; Hugo &#43; Cloudflareでブログ作成</a> <i class="fa fa-arrow-circle-right"></i></span>
     
   </nav>
 
