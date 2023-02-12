@@ -1,0 +1,23 @@
+{
+    "subject": "acct:gomama@majigomama.com",
+    "aliases": [
+        "https://handon.club/@gomama",
+        "https://handon.club/users/gomama"
+    ],
+    "links": [
+        {
+          "rel": "http://webfinger.net/rel/profile-page",
+          "type": "text/html",
+          "href": "https://handon.club/@gomama"
+        },
+        {
+          "rel": "self",
+          "type": "application/activity+json",
+          "href": "https://handon.club/users/gomama"
+        },
+        {
+          "rel": "http://ostatus.org/schema/1.0/subscribe",
+          "template": "https://handon.club/authorize_interaction?uri={uri}"
+        }
+      ]
+}
